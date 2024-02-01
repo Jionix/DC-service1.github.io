@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: url(https://static.wixstatic.com/media/e64396_9ebb7b3a8b85414091ade330e0b163cb~mv2.png/v1/fill/w_1637,h_1121,al_c,q_90,enc_auto/e64396_9ebb7b3a8b85414091ade330e0b163cb~mv2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    background-color: #303536;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.logo_block {
+    margin-left: 8px;
+    display: inline-block;
+}
+
+.menu_btn {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.menu_item_main {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(4, 157, 233);;
+}
+
+.menu_item {
+    text-decoration: none;
+    color: #DBDBDB;
+    line-height: 29px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu_item:hover {
+    color:rgb(4, 157, 233);
+    transition: 0.5s;
+}
+
+.technologies_container {
+    padding: 60px 130px 10px 130px;
+}
+
+.technologies_heading {
+    text-transform: uppercase;
+    font-size: 45px;
+    letter-spacing: 3px;
+    color: #303536;
+}
+
+.technologies_hr {
+    background-color: #f5f8fb;
+    border: none;
+    height: 2px;
+    width: 850px;
+    margin: 0 auto;
+    font-weight: bold;
+    margin: 10px 0 15px 0;
+}
+
+
+.technologies_name {
+    font-size: 22px;
+    letter-spacing: 1px;
+    color: #605E5E;
+    text-transform: uppercase;
+}
+
+.technologies_name_text {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #605E5E;
+    line-height: 20px;
+}
+
+.ul_technologies {
+    margin-left: 20px;
+}
+
+.li_list {
+    font-size: 15px;
+    color: #605E5E;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+
+.footer {
+    height: 70px;
+    background-color: #303536;
+}
+
+.footer_info {
+    padding-top: 25px;
+}
+
+.footer_logo {
+    color: white;
+    font-size: 14px;
+    margin-left: 150px;
+    float: left;
+}
+
+.mail {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    float: right;
+    margin-right: 100px;
+}
+
+.telephone_number {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    float: right;
+    margin-right: 150px;
+}

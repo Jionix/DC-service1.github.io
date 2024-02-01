@@ -1,0 +1,333 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-image: url(https://static.wixstatic.com/media/e64396_9ebb7b3a8b85414091ade330e0b163cb~mv2.png/v1/fill/w_1637,h_1121,al_c,q_90,enc_auto/e64396_9ebb7b3a8b85414091ade330e0b163cb~mv2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    background-color: #303536;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.logo_block {
+    margin-left: 8px;
+    display: inline-block;
+}
+
+.menu_btn {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.menu_item_main {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(4, 157, 233);;
+}
+
+.menu_item {
+    text-decoration: none;
+    color: #DBDBDB;
+    line-height: 29px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu_item:hover {
+    color:rgb(4, 157, 233);
+    transition: 0.5s;
+}
+
+.slider_container {
+    position: relative;
+}
+
+.slider_content {
+    position: absolute;
+    left: 170px;
+    top: 70px;
+    max-width: 30%;
+}
+
+.slider_heading {
+    font-size: 30px;
+    color: #303536;
+}
+
+.slider_text {
+    color: #605E5E;
+    font-size: 33px;
+}
+
+.slick-track {
+    display: flex;
+}
+
+.slick-list {
+    overflow: hidden;
+}
+
+.slider {
+    position: relative;
+}
+
+.slider .slick-arrow {
+    position: absolute;
+    top: 40%;
+    z-index: 10;
+    font-size: 0;
+}
+
+.slider .slick-arrow.slick-prev {
+    left: 5%;
+    background: url(../images/prev.png) 0 0  / 100% no-repeat;
+    width: 45px;
+    height: 45px;
+    border: 0;
+}
+
+.slider .slick-arrow.slick-next {
+    right: 5%;
+    background: url(../images/next.png) 0 0 / 100% no-repeat;
+    width: 48px;
+    height: 48px;
+    border: 0;
+}
+
+.slider .slick-dots {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider .slick-dots li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+.slider ul.slick-dots {
+    margin: 0;
+}
+
+.slider .slick-dots button {
+    padding: 0;
+    font-size: 0;
+    width: 7px;
+    height: 7px;
+    background-color: #CCCCCC;
+    border-radius: 50%;
+    border: 0;
+}
+
+.slider .slick-dots li.slick-active button {
+    background-color: white;
+}
+
+.heading {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-left: 130px;
+    margin-top: 30px;
+}
+
+.dividing_hr {
+    background-color: #303536;
+    border: none;
+    height: 1px;
+    margin-left: 130px;
+    margin-right: 130px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.wrapper_clients {
+    width: 100%;
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+}
+
+.clients {
+    background: #F6F6F6;
+    width: 24.7%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.clients_heading {
+    font-size: 22px;
+    color: #00A75D;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.clients_text {
+    color: #605E5E;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+    margin-left: 25px;
+    width: 243px;
+}
+
+.wrapper_services {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.services_audit {
+    background-color: #0088D3;
+    width: 20%;
+    display: inline-block;
+    height: 410px;
+}
+
+.services_design {
+    background-color: #00A8EE;
+    width: 20%;
+    display: inline-block;
+    height: 410px;
+}
+
+.services_implement {
+    background-color: #00B062;
+    width: 20%;
+    display: inline-block;
+    height: 410px;
+}
+
+.services_learning {
+    background-color: #9CCB21;
+    width: 20%;
+    display: inline-block;
+    height: 410px;
+}
+
+.services_support {
+    background-color: #EAE800;
+    width: 20%;
+    display: inline-block;
+    height: 410px;
+}
+
+.services_hr {
+    background-color: white;
+    border: none;
+    height: 2px;
+    width: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.services_hr_support {
+    background-color: #303536;
+    border: none;
+    height: 2px;
+    width: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.services_img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.services_heading {
+    color: #303536;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 20px 0 0 30px;
+}
+
+.services_text {
+    margin-left: 30px;
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.services_text_support {
+    margin-left: 30px;
+    color: #303536;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+}
+
+.our_clients {
+    background-color: #F6F6F6;
+    margin-top: 50px;
+}
+
+.clients_slider {
+    padding-bottom: 50px;
+}
+
+.our_clients_heading {
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-left: 130px;
+    padding-top: 40px;
+}
+
+.clients_slider .slick-track {
+    height: 100px;
+
+}
+
+.clients_slider .slick-list {
+    overflow: hidden;
+}
+
+.clients_slider_img {
+    margin-right: 40px;
+}
+
+.footer {
+    height: 70px;
+    background-color: #303536;
+}
+
+.footer_info {
+    padding-top: 25px;
+}
+
+.footer_logo {
+    color: white;
+    font-size: 14px;
+    margin-left: 150px;
+    float: left;
+}
+
+.mail {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    float: right;
+    margin-right: 100px;
+}
+
+.telephone_number {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    float: right;
+    margin-right: 150px;
+}
+
